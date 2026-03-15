@@ -52,32 +52,7 @@ This solution aligns with the hackathon theme of building AI apps and agents usi
 
 ## Architecture Diagram
 
-```mermaid
-flowchart LR
-		U[User] --> D[DevUI / OpenAI-Compatible Endpoints]
-
-		D --> G[FinSights.Agent Service]
-		A[Aspire App Host] --> G
-
-		G --> O[finsights-agent<br/>Orchestrator]
-		G --> E[echo-agent<br/>Test Agent]
-
-		O --> AA[AccountsAgent]
-		O --> CA[CashflowAgent]
-		O --> S[Skill Playbooks<br/>SKILL.md]
-
-		AA --> AT[Account Tools]
-		CA --> CT[Cashflow Tools]
-
-		AT --> P[Seeded Financial Profile<br/>maya.json]
-		CT --> P
-
-		G --> LLM[Microsoft Foundry / Azure OpenAI<br/>via llm connection]
-		DEV[GitHub Copilot] -.accelerated development .-> G
-		DEV -.assisted prompts, tools, and docs .-> G
-
-		MCP[Azure MCP Tools<br/>future extension point] -.optional AI functions .-> O
-```
+![FinSights architecture diagram](./docs/images/finsight_ca_architecture.svg)
 
 ## Solution Architecture
 
@@ -133,3 +108,7 @@ src/
 	FinSights.Agent/
 	FinSights.ServiceDefaults/
 ```
+
+## Demo Screenshot
+
+![FinSights demo](./docs/images/finsight-demo.png)

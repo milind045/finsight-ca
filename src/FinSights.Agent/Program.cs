@@ -3,7 +3,6 @@ using FinSights.Data;
 using Microsoft.Agents.AI;
 using Microsoft.Agents.AI.DevUI;
 using Microsoft.Agents.AI.Hosting;
-using Microsoft.Agents.AI.Hosting.AGUI.AspNetCore;
 using Microsoft.Extensions.AI;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,17 +46,11 @@ builder.AddAIAgent("echo-agent", (sp, name) =>
 builder.AddOpenAIResponses();
 builder.AddOpenAIConversations();
 
-builder.Services.AddAGUI();
-
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
 app.MapOpenAIResponses();
 app.MapOpenAIConversations();
-app.MapAGUI(
-    pattern: "ag-ui",
-    aiAgent: app.Services.GetRequiredKeyedService<AIAgent>("finsights-agent")
-);
 app.MapDevUI();
 
 app.Run();
