@@ -1,0 +1,13 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Aspire.Hosting.Dcp": "Warning",
+            "Microsoft.AspNetCore": "Warning",
+            "Microsoft.EntityFrameworkCore": "Warning"
+        }
+    },
+    "ConnectionStrings": {
+        "llm": null
+    }
+}

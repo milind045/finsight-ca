@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FinSights.Agent/FinSights.Agent.csproj" />
+    <Project Path="src/FinSights.ServiceDefaults/FinSights.ServiceDefaults.csproj" />
+    <Project Path="src/FinSights.WebUI/FinSights.WebUI.csproj" />
+  </Folder>
+</Solution>

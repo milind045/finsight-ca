@@ -1,0 +1,66 @@
+{
+  "name": "Maya",
+  "age": 34,
+  "province": "ON",
+  "annualIncome": 130000,
+  "isFirstTimeBuyer": true,
+  "isSelfEmployed": false,
+  "accounts": {
+    "tfsa": {
+      "balance": 41500,
+      "ytdContributions": 3500,
+      "availableRoom": 3500
+    },
+    "rrsp": {
+      "balance": 88000,
+      "ytdContributions": 0,
+      "availableRoom": 22400
+    },
+    "fhsa": {
+      "balance": 8000,
+      "ytdContributions": 5000,
+      "availableRoom": 3000
+    },
+    "chequing": {
+      "balance": 12400,
+      "ytdContributions": 0,
+      "availableRoom": 0
+    },
+    "heloc": {
+      "balance": 900,
+      "ytdContributions": 0,
+      "availableRoom": 0,
+      "limit": 50000
+    }
+  },
+  "monthlyExpenses": {
+    "housing": 2100,
+    "food": 600,
+    "transport": 300,
+    "subscriptions": 150,
+    "other": 400
+  },
+  "goals": [
+    {
+      "name": "Emergency Fund",
+      "targetMonths": 3,
+      "targetAmount": 0,
+      "deadline": "",
+      "priority": 1
+    },
+    {
+      "name": "Max TFSA 2025",
+      "targetAmount": 7000,
+      "targetMonths": 0,
+      "deadline": "2025-12-31",
+      "priority": 2
+    },
+    {
+      "name": "Max FHSA 2025",
+      "targetAmount": 8000,
+      "targetMonths": 0,
+      "deadline": "2025-12-31",
+      "priority": 3
+    }
+  ]
+}

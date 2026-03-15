@@ -1,0 +1,62 @@
+# Build outputs
+bin/
+obj/
+
+# .NET / MSBuild
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.ncb
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ASP.NET Core
+wwwroot/lib/
+
+# Aspire
+.aspire/
+
+# User secrets (never commit secrets)
+secrets.json
+appsettings.*.local.json
+apphost.settings.local.json
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
