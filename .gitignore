@@ -21,8 +21,7 @@ artifacts/
 # Rider
 .idea/
 
-# VS Code
-.vscode/
+
 
 # Visual Studio
 .vs/
@@ -40,8 +39,7 @@ artifacts/
 # ASP.NET Core
 wwwroot/lib/
 
-# Aspire
-.aspire/
+
 
 # User secrets (never commit secrets)
 secrets.json

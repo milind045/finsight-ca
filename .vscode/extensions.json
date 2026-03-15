@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.remote-ssh",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "microsoft-aspire.aspire-vscode",
+        "editorconfig.editorconfig",
+    ]
+}
