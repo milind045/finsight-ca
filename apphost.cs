@@ -1,6 +1,6 @@
 ﻿#:package Aspire.Hosting.Azure@13.*
 #:package Aspire.Hosting.OpenAI@13.*
-#:sdk Aspire.AppHost.Sdk@13.1.2
+#:sdk Aspire.AppHost.Sdk@13.2.1
 #:property UserSecretsId=7ae1635d-7ac9-43dd-b458-5f56d1b1ee02
 #:project ./src/FinSights.Agent/FinSights.Agent.csproj
 #:project ./src/FinSights.WebUI/FinSights.WebUI.csproj

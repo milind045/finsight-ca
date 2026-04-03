@@ -76,7 +76,7 @@ public static class AgentFactory
         // FileAgentSkillsProvider scans the /skills directory for SKILL.md files
         // and registers them as tools the orchestrator can load on demand.
 #pragma warning disable MAAI001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
-        var skillsProvider = new FileAgentSkillsProvider(skillsDirectoryPath);
+        var skillsProvider = new AgentSkillsProvider(skillsDirectoryPath);
 #pragma warning restore MAAI001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
 
         var toolset = new List<AITool>
